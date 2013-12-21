@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|AnyCPU">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|AnyCPU">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>eb20157c-be56-4603-8659-a488821a64a7</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0'">
+    <VisualStudioVersion>11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).Default.props" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).props" />
+  <PropertyGroup>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetPlatformVersion>8.0</TargetPlatformVersion>
+    <DefaultLanguage>ja-JP</DefaultLanguage>
+    <PackageCertificateKeyFile>Breakdown_StoreKey.pfx</PackageCertificateKeyFile>
+    <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
+    <PackageCertificateThumbprint>EA6C69720438D737D7AF590D4E897959899B58AA</PackageCertificateThumbprint>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppxManifest Include="package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <Content Include="audio\001.wav" />
+    <Content Include="audio\002.wav" />
+    <Content Include="audio\003.wav" />
+    <Content Include="audio\004.wav" />
+    <Content Include="audio\005.wav" />
+    <Content Include="audio\006.wav" />
+    <Content Include="audio\007.wav" />
+    <Content Include="audio\008.wav" />
+    <Content Include="audio\009.wav" />
+    <Content Include="audio\010.wav" />
+    <Content Include="audio\011.wav" />
+    <Content Include="audio\012.wav" />
+    <Content Include="audio\013.wav" />
+    <Content Include="audio\014.wav" />
+    <Content Include="audio\015.wav" />
+    <Content Include="audio\016.wav" />
+    <Content Include="audio\017.wav" />
+    <Content Include="audio\018.wav" />
+    <Content Include="audio\019.wav" />
+    <Content Include="audio\020.wav" />
+    <Content Include="audio\021.wav" />
+    <Content Include="audio\022.wav" />
+    <Content Include="audio\023.wav" />
+    <Content Include="audio\024.wav" />
+    <Content Include="audio\025.wav" />
+    <Content Include="audio\026.wav" />
+    <Content Include="audio\027.wav" />
+    <Content Include="audio\028.wav" />
+    <Content Include="audio\029.wav" />
+    <Content Include="audio\030.wav" />
+    <Content Include="audio\031.wav" />
+    <Content Include="audio\032.wav" />
+    <Content Include="audio\033.wav" />
+    <Content Include="audio\034.wav" />
+    <Content Include="audio\035.wav" />
+    <Content Include="audio\036.wav" />
+    <Content Include="audio\037.wav" />
+    <Content Include="audio\038.wav" />
+    <Content Include="audio\039.wav" />
+    <Content Include="audio\040.wav" />
+    <Content Include="audio\041.wav" />
+    <Content Include="audio\042.wav" />
+    <Content Include="audio\043.wav" />
+    <Content Include="audio\044.wav" />
+    <Content Include="audio\045.wav" />
+    <Content Include="audio\046.wav" />
+    <Content Include="audio\047.wav" />
+    <Content Include="audio\048.wav" />
+    <Content Include="audio\049.wav" />
+    <Content Include="audio\050.wav" />
+    <Content Include="audio\051.wav" />
+    <Content Include="audio\052.wav" />
+    <Content Include="audio\053.wav" />
+    <Content Include="audio\054.wav" />
+    <Content Include="audio\055.wav" />
+    <Content Include="audio\056.wav" />
+    <Content Include="audio\057.wav" />
+    <Content Include="audio\058.wav" />
+    <Content Include="audio\059.wav" />
+    <Content Include="audio\060.wav" />
+    <Content Include="audio\061.wav" />
+    <Content Include="audio\062.wav" />
+    <Content Include="audio\063.wav" />
+    <Content Include="audio\064.wav" />
+    <Content Include="audio\065.wav" />
+    <Content Include="audio\066.wav" />
+    <Content Include="audio\067.wav" />
+    <Content Include="audio\068.wav" />
+    <Content Include="audio\069.wav" />
+    <Content Include="audio\070.wav" />
+    <Content Include="audio\071.wav" />
+    <Content Include="audio\072.wav" />
+    <Content Include="audio\073.wav" />
+    <Content Include="audio\074.wav" />
+    <Content Include="audio\075.wav" />
+    <Content Include="audio\076.wav" />
+    <Content Include="audio\077.wav" />
+    <Content Include="audio\078.wav" />
+    <Content Include="audio\079.wav" />
+    <Content Include="audio\080.wav" />
+    <Content Include="audio\081.wav" />
+    <Content Include="audio\082.wav" />
+    <Content Include="audio\083.wav" />
+    <Content Include="audio\084.wav" />
+    <Content Include="audio\085.wav" />
+    <Content Include="audio\086.wav" />
+    <Content Include="audio\087.wav" />
+    <Content Include="audio\088.wav" />
+    <Content Include="audio\089.wav" />
+    <Content Include="audio\090.wav" />
+    <Content Include="audio\091.wav" />
+    <Content Include="audio\092.wav" />
+    <Content Include="audio\093.wav" />
+    <Content Include="audio\094.wav" />
+    <Content Include="audio\095.wav" />
+    <Content Include="audio\096.wav" />
+    <Content Include="audio\097.wav" />
+    <Content Include="audio\098.wav" />
+    <Content Include="audio\099.wav" />
+    <Content Include="audio\100.wav" />
+    <Content Include="audio\101.wav" />
+    <Content Include="audio\102.wav" />
+    <Content Include="audio\103.wav" />
+    <Content Include="audio\104.wav" />
+    <Content Include="audio\105.wav" />
+    <Content Include="audio\106.wav" />
+    <Content Include="audio\107.wav" />
+    <Content Include="audio\108.wav" />
+    <Content Include="audio\109.wav" />
+    <Content Include="audio\110.wav" />
+    <Content Include="audio\111.wav" />
+    <Content Include="audio\112.wav" />
+    <Content Include="audio\113.wav" />
+    <Content Include="audio\114.wav" />
+    <Content Include="audio\115.wav" />
+    <Content Include="audio\116.wav" />
+    <Content Include="audio\117.wav" />
+    <Content Include="audio\118.wav" />
+    <Content Include="audio\119.wav" />
+    <Content Include="audio\120.wav" />
+    <Content Include="audio\121.wav" />
+    <Content Include="audio\122.wav" />
+    <Content Include="audio\123.wav" />
+    <Content Include="audio\124.wav" />
+    <Content Include="audio\125.wav" />
+    <Content Include="audio\126.wav" />
+    <Content Include="audio\127.wav" />
+    <Content Include="audio\128.wav" />
+    <Content Include="audio\129.wav" />
+    <Content Include="audio\130.wav" />
+    <Content Include="audio\131.wav" />
+    <Content Include="audio\132.wav" />
+    <Content Include="audio\133.wav" />
+    <Content Include="audio\134.wav" />
+    <Content Include="audio\135.wav" />
+    <Content Include="audio\136.wav" />
+    <Content Include="audio\137.wav" />
+    <Content Include="audio\138.wav" />
+    <Content Include="audio\139.wav" />
+    <Content Include="audio\140.wav" />
+    <Content Include="audio\141.wav" />
+    <Content Include="audio\142.wav" />
+    <Content Include="audio\143.wav" />
+    <Content Include="audio\144.wav" />
+    <Content Include="audio\145.wav" />
+    <Content Include="audio\146.wav" />
+    <Content Include="audio\147.wav" />
+    <Content Include="audio\148.wav" />
+    <Content Include="audio\149.wav" />
+    <Content Include="audio\150.wav" />
+    <Content Include="audio\151.wav" />
+    <Content Include="audio\finish.wav" />
+    <Content Include="images\logo.scale-100.png" />
+    <Content Include="images\smalllogo.scale-100.png" />
+    <Content Include="images\splashscreen.scale-100.png" />
+    <None Include="Breakdown_StoreKey.pfx" />
+    <Content Include="default.html" />
+    <Content Include="images\storelogo.scale-100.png" />
+    <Content Include="js\default.js" />
+    <Content Include="css\default.css" />
+    <Content Include="js\jquery-1.8.0-windows8-ready.js" />
+    <None Include="Package.StoreAssociation.xml" />
+    <None Include="Breakdown_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="Microsoft.WinJS.1.0, Version=1.0" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
+  <!-- To modify your build process, add your task inside one of the targets below then uncomment
+       that target and the DisableFastUpToDateCheck PropertyGroup. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <PropertyGroup>
+    <DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
+  </PropertyGroup>
+  -->
+</Project>
